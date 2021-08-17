@@ -8,7 +8,7 @@ class IntClosedRange():
 	def str(self):
 		return "[{},{}]".format(self.lower_endpoint, self.upper_endpoint)
 	
-	def is_in(self, target):
+	def is_include(self, target):
 		if target >= self.lower_endpoint and target <= self.upper_endpoint:
 			return True
 		else:
