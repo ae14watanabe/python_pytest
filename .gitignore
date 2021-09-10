@@ -6,3 +6,6 @@ MANIFEST
 dist/
 tests/coverage_html/
 tests/.coverage
+
+.venv
+.python-version
